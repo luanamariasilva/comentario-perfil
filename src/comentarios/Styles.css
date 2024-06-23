@@ -1,0 +1,10 @@
+
+#imagem_footer{
+    height: 10vh;
+    width: auto;
+    background-image: url(../images/Component\ 1.png);
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

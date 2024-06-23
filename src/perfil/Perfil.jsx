@@ -1,7 +1,6 @@
-import React from "react";
-import { Comentarios } from "../comentarios/Comentarios";
 
-import '../perfil/Styles.css'
+import React from "react";
+import '../perfil/Styles.css';
 
 
 export class Perfil extends React.Component{
@@ -20,7 +19,8 @@ export class Perfil extends React.Component{
            </header>
             
            <main>
-               <form className="style_form">
+           <hr />
+              {/*  <form className="style_form">
                     <div id="style_name" >
                         <label htmlFor="nome">Coloque seu Nome</label>
                         <input type="text" 
@@ -41,11 +41,9 @@ export class Perfil extends React.Component{
                         </textarea> 
                     </div>
 
-                     {/* <div>
-                       <button></button>
-                     </div> */}
+                   
                  
-               </form>
+               </form> */}
 
               
            </main>
